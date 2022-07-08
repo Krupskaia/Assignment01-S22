@@ -16,9 +16,8 @@ null*/
 
 //STEP 3
 /*
-
-var firstExample = 6 * (20 / 4) - 2;
-var example2 = 5 + 5;
+var total = 125 * (100/80);
+var total1 = total * 1.1;
 */
 
 //STEP 4
@@ -27,73 +26,72 @@ var strLastName;
 var strAddress;
 var strCity;
 var strState;
-var strZipCode;
+var intZipCode;
 var intYourAge;
 var strReferralSource;
-var blnMayWeContactYou;*/
+var booMayWeContactYou;*/
 
 //STEP 5
 /*var strFirstName;
-strFirstName = "Zak";
-var strLastName = "Ruvalcaba";
-var strAddress = "555 Sample Dr.", strCity = "San Diego";*/
+strFirstName = "Alexandra";
+var strLastName = "Angulo";
+var strState = "CA";*/
 
 //STEP 6
-/*var nameAndAge = "Zak Ruvalcaba " + 27;
-var zakIsInstructor = "Is Zak Ruvalcaba the Instructor? " + true;
-var ageIsInstructor = 27 + true;
-window.console.log(nameAndAge);
-window.console.log(zakIsInstructor);
-window.console.log(ageIsInstructor);*/
+/*var cityStateZipCode = "Solana Beach CA " + 92075;
+window.console.log(cityStateZipCode);*/
 
 //STEP 7
-//var car = "Chevy";
-//window.console.log("My " + car + " " + model + " is at the shop");
-//var model = "Camaro";
+/*var brand = "Dell" + True;
+var serialNumber = "1234567" + True;
+window.console.log(brand);
+window.console.log(serialNumber);*/
+
 
 //STEP 8
-/*var someString = 'Who once said, \"Only two things are infinite, the universe and human stupidity, and I\'m not sure about the former.\"';
-window.console.log(someString);*/
+// It's not valid
+/* let someString = 'Who once said, \"Only two things are infinite, the universe and human stupidity, and I\'m not sure about the former.\"';
+window.console.log(someString); */
+
 
 //STEP 9
-/*var x = null;
-window.console.log(x);
-var y;
-window.console.log(y);*/
+/*var nullValue = null;
+window.console.log(nullValue);
+var notValue;
+window.console.log(notValue);*/
 
 //STEP 10
-/*window.console.log(typeof "Zak Ruvalcaba");
-window.console.log(typeof 5.32);
+/*window.console.log(typeof "San Diego California");
+window.console.log(typeof 3.14);
 window.console.log(typeof true);
-window.console.log(typeof {name: "Zak Ruvalcaba"});
-window.console.log(typeof myHouse);*/
+window.console.log(typeof brand);*/
 
 //STEP 11
-/*window.alert("Hello " + "Zak Ruvalcaba" + ", welcome to the JavaScript class!");*/
+/*window.alert("Hello " + "Alexandra Angulo" + ", welcome to the JavaScript class!");*/
 
 //STEP 12
-/*var name = "Zak Ruvalcaba";
+/*var name = "Alexandra Angulo";
 window.alert("Hello " + name + ", welcome to the JavaScript class!");*/
 
 //STEP 13
-/*var name = "Zak Ruvalcaba";
-var course = "JavaScript";
-window.alert("Hello " + name + ", welcome to the " + course + " class!");*/
+/*var name = "Alexandra Angulo";
+var subject = "JavaScript";
+window.alert("Hello " + name + ", welcome to the " + subject + " class!");*/
 
 //STEP 14
-/*var name = "Zak Ruvalcaba";
-var course = "JavaScript";
-window.alert("Hello " + name + ".\nWelcome to the " + course + " class!");*/
+/*var name = "Alexandra Angulo";
+var subject = "JavaScript";
+window.alert("Hello " + name + ".\nWelcome to the " + subject + " class!");*/
 
 //STEP 15
 /*var name = window.prompt("What is your name?");
-var course = "JavaScript";
-window.alert("Hello " + name + ".\nWelcome to the " + course + " class!");*/
+var subject = "JavaScript";
+window.alert("Hello " + name + ".\nWelcome to the " + subject + " class!");*/
 
 //STEP 16
 /*var name = window.prompt("What is your name?");
-var course = window.prompt("What is the course name?");
-window.alert("Hello " + name + ".\nWelcome to the " + course + " class!");*/
+var subject = window.prompt("What is the course name?");
+window.alert("Hello " + name + ".\nWelcome to the " + subject + " class!");*/
 
 //STEP 17
 /*var x = 10;
@@ -116,21 +114,9 @@ x /= 1;
 window.console.log(x);*/
 
 //STEP 21
-/*var x = (5 > 4) || (7 > 10);
+/*var x = (10 > 9) && (0 < 1);
 window.console.log(x);*/
 
 //STEP 22
-/*var x = (5 > 4) && (7 > 10);
+/*var x = (10 > 9) && (0 > 1);
 window.console.log(x);*/
-
-//STEP 23
-/*var widget = new Object();
-window.console.log(typeof widget);*/
-
-//STEP 24
-/*var widget = {};
-window.console.log(widget instanceof Object);*/
-
-//STEP 25
-/*var widget = {};
-window.console.log(widget instanceof Date);*/
